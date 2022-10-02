@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		672A7BCF28EA4DD300E990D9 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 672A7BCE28EA4DD300E990D9 /* Localizable.strings */; };
+		672A7BD128EA4E9500E990D9 /* LocaleKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 672A7BD028EA4E9500E990D9 /* LocaleKeys.swift */; };
+		672A7BD428EA50B300E990D9 /* GoogleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 672A7BD328EA50B300E990D9 /* GoogleButton.swift */; };
+		672A7BD828EA51C000E990D9 /* PagePadding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 672A7BD728EA51C000E990D9 /* PagePadding.swift */; };
+		672A7BDA28EA52C900E990D9 /* RadiusItems.swift in Sources */ = {isa = PBXBuildFile; fileRef = 672A7BD928EA52C900E990D9 /* RadiusItems.swift */; };
+		672A7BDC28EA53C300E990D9 /* AppleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 672A7BDB28EA53C300E990D9 /* AppleButton.swift */; };
+		672A7BDF28EA550C00E990D9 /* ViewSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 672A7BDE28EA550C00E990D9 /* ViewSize.swift */; };
+		672A7BE128EA555800E990D9 /* CustomEmailButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 672A7BE028EA555800E990D9 /* CustomEmailButton.swift */; };
+		672A7BE428EA55F700E990D9 /* FontSizes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 672A7BE328EA55F700E990D9 /* FontSizes.swift */; };
+		672A7BE628EA589400E990D9 /* DynamicSize+GeometryProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 672A7BE528EA589400E990D9 /* DynamicSize+GeometryProxy.swift */; };
 		67E9B42728E1140D00895D5D /* VBSnackOverflowApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67E9B42628E1140D00895D5D /* VBSnackOverflowApp.swift */; };
 		67E9B42928E1140D00895D5D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67E9B42828E1140D00895D5D /* ContentView.swift */; };
 		67E9B42B28E1140E00895D5D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 67E9B42A28E1140E00895D5D /* Assets.xcassets */; };
@@ -22,6 +32,16 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		672A7BCE28EA4DD300E990D9 /* Localizable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		672A7BD028EA4E9500E990D9 /* LocaleKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocaleKeys.swift; sourceTree = "<group>"; };
+		672A7BD328EA50B300E990D9 /* GoogleButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleButton.swift; sourceTree = "<group>"; };
+		672A7BD728EA51C000E990D9 /* PagePadding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PagePadding.swift; sourceTree = "<group>"; };
+		672A7BD928EA52C900E990D9 /* RadiusItems.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadiusItems.swift; sourceTree = "<group>"; };
+		672A7BDB28EA53C300E990D9 /* AppleButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleButton.swift; sourceTree = "<group>"; };
+		672A7BDE28EA550C00E990D9 /* ViewSize.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewSize.swift; sourceTree = "<group>"; };
+		672A7BE028EA555800E990D9 /* CustomEmailButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomEmailButton.swift; sourceTree = "<group>"; };
+		672A7BE328EA55F700E990D9 /* FontSizes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontSizes.swift; sourceTree = "<group>"; };
+		672A7BE528EA589400E990D9 /* DynamicSize+GeometryProxy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DynamicSize+GeometryProxy.swift"; sourceTree = "<group>"; };
 		67E9B42328E1140D00895D5D /* VBSnackOverflow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VBSnackOverflow.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		67E9B42628E1140D00895D5D /* VBSnackOverflowApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VBSnackOverflowApp.swift; sourceTree = "<group>"; };
 		67E9B42828E1140D00895D5D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -48,6 +68,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		672A7BCD28EA4DC400E990D9 /* Locale */ = {
+			isa = PBXGroup;
+			children = (
+				672A7BCE28EA4DD300E990D9 /* Localizable.strings */,
+				672A7BD028EA4E9500E990D9 /* LocaleKeys.swift */,
+			);
+			path = Locale;
+			sourceTree = "<group>";
+		};
+		672A7BDD28EA550100E990D9 /* Size */ = {
+			isa = PBXGroup;
+			children = (
+				672A7BDE28EA550C00E990D9 /* ViewSize.swift */,
+			);
+			path = Size;
+			sourceTree = "<group>";
+		};
+		672A7BE228EA55EC00E990D9 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				672A7BE328EA55F700E990D9 /* FontSizes.swift */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
 		67E9B41A28E1140D00895D5D = {
 			isa = PBXGroup;
 			children = (
@@ -89,6 +134,8 @@
 		67E9B43428E1150C00895D5D /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				672A7BE228EA55EC00E990D9 /* Fonts */,
+				672A7BCD28EA4DC400E990D9 /* Locale */,
 				67E9B44428E11A8F00895D5D /* Extension */,
 				67E9B44128E1183C00895D5D /* Enums */,
 			);
@@ -148,8 +195,11 @@
 		67E9B44128E1183C00895D5D /* Enums */ = {
 			isa = PBXGroup;
 			children = (
+				672A7BDD28EA550100E990D9 /* Size */,
 				67E9B44228E1185600895D5D /* Images.swift */,
 				67E9B44728E11B1100895D5D /* Icons.swift */,
+				672A7BD728EA51C000E990D9 /* PagePadding.swift */,
+				672A7BD928EA52C900E990D9 /* RadiusItems.swift */,
 			);
 			path = Enums;
 			sourceTree = "<group>";
@@ -159,6 +209,7 @@
 			children = (
 				67E9B44528E11AA400895D5D /* Colors.swift */,
 				67E9B44D28E1206B00895D5D /* EdgeInsets.swift */,
+				672A7BE528EA589400E990D9 /* DynamicSize+GeometryProxy.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -175,6 +226,9 @@
 			isa = PBXGroup;
 			children = (
 				67E9B44B28E11F9C00895D5D /* FacebookButton.swift */,
+				672A7BD328EA50B300E990D9 /* GoogleButton.swift */,
+				672A7BDB28EA53C300E990D9 /* AppleButton.swift */,
+				672A7BE028EA555800E990D9 /* CustomEmailButton.swift */,
 			);
 			path = Button;
 			sourceTree = "<group>";
@@ -237,6 +291,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				672A7BCF28EA4DD300E990D9 /* Localizable.strings in Resources */,
 				67E9B43D28E1166F00895D5D /* Colors.xcassets in Resources */,
 				67E9B43F28E1169A00895D5D /* Images.xcassets in Resources */,
 				67E9B42E28E1140E00895D5D /* Preview Assets.xcassets in Resources */,
@@ -251,14 +306,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				672A7BE628EA589400E990D9 /* DynamicSize+GeometryProxy.swift in Sources */,
+				672A7BD128EA4E9500E990D9 /* LocaleKeys.swift in Sources */,
+				672A7BD828EA51C000E990D9 /* PagePadding.swift in Sources */,
+				672A7BDA28EA52C900E990D9 /* RadiusItems.swift in Sources */,
+				672A7BDC28EA53C300E990D9 /* AppleButton.swift in Sources */,
 				67E9B42928E1140D00895D5D /* ContentView.swift in Sources */,
+				672A7BDF28EA550C00E990D9 /* ViewSize.swift in Sources */,
 				67E9B44628E11AA400895D5D /* Colors.swift in Sources */,
 				67E9B44828E11B1100895D5D /* Icons.swift in Sources */,
+				672A7BD428EA50B300E990D9 /* GoogleButton.swift in Sources */,
 				67E9B44C28E11F9C00895D5D /* FacebookButton.swift in Sources */,
 				67E9B44328E1185600895D5D /* Images.swift in Sources */,
 				67E9B43B28E1159800895D5D /* WelcomeView.swift in Sources */,
 				67E9B44E28E1206B00895D5D /* EdgeInsets.swift in Sources */,
 				67E9B42728E1140D00895D5D /* VBSnackOverflowApp.swift in Sources */,
+				672A7BE128EA555800E990D9 /* CustomEmailButton.swift in Sources */,
+				672A7BE428EA55F700E990D9 /* FontSizes.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
